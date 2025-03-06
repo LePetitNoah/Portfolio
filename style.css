@@ -23,6 +23,18 @@ a:hover{
     color:red;
 }
 
+header{
+    text-align: center;
+}
+
+header>h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin: 350px 0px 350px 0px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
 .navbar{
     margin: 30px 10px 0px 10px;
     padding: 10px 0px 10px 0px;
@@ -47,20 +59,6 @@ a:hover{
 
 .navbar>ul>li>a.current{
     color:red;
-}
-
-header{
-    text-align: center;
-    height: 600px;
-}
-
-header>h1{
-    font-size: 70px;
-    font-weight: bold;
-    margin-top: 190px;
-    padding: 20px;
-    border-radius: 10px;
-    backdrop-filter: blur(2px);
 }
 
 .cv{
