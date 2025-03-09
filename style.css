@@ -163,9 +163,26 @@ input:checked + label{
     color: red;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container>div{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+
 .icon-logiciel{
-    width: 32px;
-    height: 32px;
+    width: 64px;
+    height: 64px;
+    padding: 8px;
+    margin-right: 5px;
+    background-color: azure;
+    border-radius: 30%;
 }
 
 .checked{
